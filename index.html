@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="https://kit.fontawesome.com/95824cf2ed.js" crossorigin="anonymous"></script>
+    <title>Juan Tellez</title>
+</head>
+<body>
+
+
+    <nav class="navbar">
+
+        <i class="fa-solid fa-bars icon" id="menu-icon"></i>
+        
+        <div class="menu">
+            <img src="./Logo_JT.png" class="logo" alt="Logo JT">
+
+            <ul class="nav-list" id="nav-list">
+                
+                <li class="nav-link">Home</li>
+                <li class="nav-link">About me</li>
+                <li class="nav-link">Tech Skills</li>
+                <li class="nav-link">Contact</li>
+            </ul>
+
+        </div>
+    </nav>
+
+
+<script>
+
+    let menu_icon = document.getElementById("menu-icon")
+    let nav_list = document.getElementById("nav-list")
+    let toggle = false
+
+    menu_icon.addEventListener('click',()=> {
+
+        if(!toggle) {
+            nav_list.style.marginLeft = "-10px"
+            toggle = true
+        }else{
+            nav_list.style.marginLeft = "-550px"
+            toggle = false
+        }
+    })
+
+</script>
+</body>
+</html>

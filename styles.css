@@ -1,0 +1,139 @@
+:root {
+    --bgcolor: rgb(41,48,56);
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+
+    background-color: var(--bgcolor);
+    color: #ebf1f3;
+    height: 55px;
+    padding: 10px;
+}
+
+
+
+@media only screen and (max-width: 550px) {
+
+    
+    .navbar .icon {
+    
+        font-size: 30px;
+        padding: 10px;
+        margin: auto;
+    }
+
+    .navbar .logo {
+        display: none;
+    }
+    
+    .navbar .nav-list {
+        
+        display: flex;
+        margin-top: 0;
+        margin-left: -550px;
+        list-style: none;
+        flex-direction: column;
+        background-color: var(--bgcolor);
+        width: 95%;
+        height: auto;
+        padding: 25px;
+        transition: margin 0.4s ease-in-out 0.4s;
+
+    }
+    
+    .navbar .nav-list .nav-link {
+    
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+
+    .navbar .nav-list .nav-link:hover {
+        background-color: rgb(53, 55, 59);
+    }
+
+    
+}
+
+
+
+@media only screen and (min-width: 550px)  {
+    
+    
+    
+    .navbar .icon {
+
+        display: none;
+    }
+
+    .navbar .logo {
+
+        width: 160px;
+        height: 60px;
+    }
+
+    .navbar .menu {
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .navbar .nav-list {
+    
+        margin: 0;
+        list-style: none;
+        display: flex;
+        justify-content: right;
+    }   
+
+    .navbar .nav-list .nav-link {
+        padding: 10px;
+    }
+
+    .navbar .nav-list .nav-link:hover {
+        background-color: rgb(53, 55, 59);
+    }
+}
+
+@media only screen and (min-width: 700px) {
+
+    .navbar .nav-list .nav-link {
+        margin-right: 20px;
+    }
+}
+
+
+@media only screen and (min-width: 820px) {
+
+    .navbar .nav-list .nav-link {
+        margin-right: 30px;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+
+    .navbar .nav-list .nav-link {
+        margin-right: 40px;
+    }
+}
+
+
+@media only screen and (min-width: 1050px) {
+
+    .navbar .nav-list .nav-link {
+        margin-right: 70px;
+    }
+}
+
+
+
+
+
+
