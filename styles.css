@@ -43,7 +43,7 @@ body {
         width: 95%;
         height: auto;
         padding: 25px;
-        transition: margin 0.4s ease-in-out 0.4s;
+        transition: margin ease-in-out 0.5s;
 
     }
     
@@ -52,6 +52,7 @@ body {
         margin-top: 20px;
         margin-bottom: 20px;
         padding: 20px;
+        transition: all ease-in-out 0.4s;
     }
 
     .navbar .nav-list .nav-link:hover {
@@ -95,6 +96,7 @@ body {
 
     .navbar .nav-list .nav-link {
         padding: 10px;
+        transition: all ease-in-out 0.4s;
     }
 
     .navbar .nav-list .nav-link:hover {
