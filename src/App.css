@@ -1,0 +1,12 @@
+
+
+.title-section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+
+h1 {
+  font-size: 60px;
+}
