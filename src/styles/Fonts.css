@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('../utils/fonts//Noto_Sans/NotoSans-Thin.ttf');
+    src: url('../utils/fonts//Noto_Sans/NotoSans-Bold.ttf');
+    src: url('../utils/fonts//Noto_Sans/NotoSans-SemiBold.ttf');
+    src: url('../utils/fonts//Noto_Sans/NotoSans-ExtraLight.ttf');
+}

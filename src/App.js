@@ -1,16 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import FrontPage from './components/FrontPage/FrontPage';
 
 function App() {
   return (
     <div className="App">
       <header className='App-header'>
-
+        <h1> Here goes navbar </h1>
       </header>
-      <div className="title-section">
-        <h1>Juan Tellez</h1>
-        <h2>Software Engineer</h2>
+      <div className='frontPage'>
+        <FrontPage></FrontPage>
       </div>
+
     </div>
   );
 }

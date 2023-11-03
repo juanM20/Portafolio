@@ -1,0 +1,41 @@
+@import url('./Fonts.css');
+
+* {
+  font-family: 'Noto Sans';
+}
+
+.title-section {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  border-radius: 15px;
+  width: 80%;
+  border: 1px #d5d5d5 solid;
+  transition: box-shadow 0.5s ease; 
+}
+
+.title-section:hover {
+  box-shadow: -7px 11px 31px -6px rgba(0,0,0,0.74);
+  -webkit-box-shadow: -7px 11px 31px -6px rgba(0,0,0,0.74);
+  -moz-box-shadow: -7px 11px 31px -6px rgba(0,0,0,0.74);
+}
+
+.content-section {
+  margin-left: 35px;
+  padding: 35px;
+}
+
+.image {
+  width: 400px;
+  border-radius: 15px;
+}
+  
+.button {
+  font-weight: bold;
+  width: 200px;
+}
+
+.content-section h1 {
+  font-size: 60px;
+}
+  

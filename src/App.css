@@ -1,12 +1,10 @@
 
-
-.title-section {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  
+.frontPage {
+    display: flex;
+    justify-content: center;
 }
 
-h1 {
-  font-size: 60px;
+.App-header {
+    border-bottom: 1px #d5d5d5 solid;
+    margin-bottom: 20px;
 }
