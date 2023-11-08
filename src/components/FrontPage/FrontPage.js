@@ -5,8 +5,9 @@ import { Button } from 'antd';
 const FrontPage = () => {
     return (
         <div className="title-section">
-            <h1>Juan Tellez</h1>
-
+            <div className='title-h'>
+                <h1>Juan Tellez</h1>
+            </div>
             <div className='image-section'>
                 <img className='image' src={frontImage} alt="frontImg" />
             </div>
