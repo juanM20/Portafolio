@@ -5,6 +5,7 @@
 }
 
 .App-header {
+    width: 100%;
     border-bottom: 1px #d5d5d5 solid;
     margin-bottom: 20px;
 }

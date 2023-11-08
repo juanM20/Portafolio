@@ -1,15 +1,17 @@
 import '../../styles/FrontPage.css';
-import frontImage from '../../utils/images/foto_perfil.jpeg';
+import frontImage from '../../utils/images/foto_perfil2.jpeg';
 import { Button } from 'antd';
 
 const FrontPage = () => {
     return (
         <div className="title-section">
+            <h1>Juan Tellez</h1>
+
             <div className='image-section'>
                 <img className='image' src={frontImage} alt="frontImg" />
             </div>
             <div className='content-section'>
-                <h1>Juan Tellez</h1>
+
                 <h2>Software Engineer</h2>
                 <div>
                     <p>I am a experienced software developer specialized in Front end with react, lit-element and
