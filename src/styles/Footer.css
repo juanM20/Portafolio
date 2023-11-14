@@ -1,0 +1,33 @@
+@import url('./Fonts.css');
+@import url('./utils.css');
+
+* {
+  font-family: 'Noto Sans';
+}
+
+
+.footer {
+    background-color: var(--main-bg-color);
+    color: var(--second-font-color);
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.icons-section {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+.icons-section a {
+    color: #ffffff;
+}
+
+.copyright-section {
+    align-self: center;   
+}
+
+.copyright-section a {
+    color: #222222;
+}
