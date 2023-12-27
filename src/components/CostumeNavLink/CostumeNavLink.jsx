@@ -3,7 +3,7 @@ import  "../../styles/CostumeNavLink.css"
 
 const CostumeNavLink = ({to, route, ...props}) => {
     return (
-        <NavLink className="link" to={to}>
+        <NavLink className={props.class} to={to}>
             {route}
         </NavLink>
     );

@@ -16,11 +16,12 @@
 
 .header-footer {
     align-self: center;
+    font-weight: bold;
 }
 
 .icons-section {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin-bottom: 30px;
 }
 .icons-section a {

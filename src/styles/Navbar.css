@@ -2,6 +2,12 @@
 
 .link {
     text-decoration: none;
+    color: #ffffff;
+}
+
+.link-mobile {
+    text-decoration: none;
+    color: #000000;
 }
 
 @media screen and (min-width: 1080px) {
@@ -12,10 +18,6 @@
 
     .button-desktop:hover {
         background-color: rgb(14, 46, 134) !important ;
-    }
-
-    .link {
-        color: #ffffff;
     }
 }
 

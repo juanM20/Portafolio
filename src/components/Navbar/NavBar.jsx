@@ -64,7 +64,7 @@ const NavBar = () => {
                                 textDecoration: 'none',
                             }}
                         >
-                            <CostumeNavLink to="/Home" route="Portafolio" />
+                            <CostumeNavLink to="/Home" route="Portafolio" class="link"/>
                         </Typography>
                     <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
                         <IconButton
@@ -100,7 +100,7 @@ const NavBar = () => {
                                     <MenuItem key={page.routeName} onClick={handleCloseNavMenu}>
 
                                         <Typography textAlign="center">
-                                            <CostumeNavLink to={page.route} route={page.routeName} />
+                                            <CostumeNavLink to={page.route} route={page.routeName} class="link-mobile"/>
                                         </Typography>
 
                                     </MenuItem>
@@ -125,7 +125,7 @@ const NavBar = () => {
                                 textDecoration: 'none',
                             }}
                         >
-                            <CostumeNavLink to="/Home" route="Portafolio" />
+                            <CostumeNavLink to="/Home" route="Portafolio" class="link"/>
                         </Typography>
                    
                     <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
@@ -137,7 +137,7 @@ const NavBar = () => {
                                     onClick={handleCloseNavMenu}
                                     sx={{ my: 2, color: 'white', display: 'block' }}
                                 >
-                                    <CostumeNavLink to={page.route} route={page.routeName} />
+                                    <CostumeNavLink to={page.route} route={page.routeName} class="link"/>
                                 </Button>
                         ))}
                     </Box>
