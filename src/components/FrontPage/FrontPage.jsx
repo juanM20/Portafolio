@@ -1,6 +1,7 @@
 import '../../styles/FrontPage.css';
-import frontImage from '../../utils/images/foto_perfil2.jpeg';
 import { Button } from 'antd';
+
+const frontImage = '/images/foto_perfil2.jpeg';
 
 const FrontPage = () => {
     return (
