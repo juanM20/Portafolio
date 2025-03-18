@@ -1,5 +1,5 @@
 import '../../styles/Navbar.css';
-import * as React from 'react';
+import  React, { useState } from 'react';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
@@ -32,10 +32,10 @@ const pages = [
     },
 ];
 
-const NavBar = () => {
-    const [anchorElNav, setAnchorElNav] = React.useState(null);
+const NavBar: React.FC = () => {
+    const [anchorElNav, setAnchorElNav] = useState<null | HTMLElement>(null);
 
-    const handleOpenNavMenu = (event) => {
+    const handleOpenNavMenu = (event: React.MouseEvent<HTMLElement>) => {
         setAnchorElNav(event.currentTarget);
     };
 
@@ -64,7 +64,7 @@ const NavBar = () => {
                                 textDecoration: 'none',
                             }}
                         >
-                            <CostumeNavLink to="/Home" route="Portafolio" class="link"/>
+                            <CostumeNavLink to="/Home" route="Portafolio" className="link"/>
                         </Typography>
                     <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
                         <IconButton
@@ -100,7 +100,7 @@ const NavBar = () => {
                                     <MenuItem key={page.routeName} onClick={handleCloseNavMenu}>
 
                                         <Typography textAlign="center">
-                                            <CostumeNavLink to={page.route} route={page.routeName} class="link-mobile"/>
+                                            <CostumeNavLink to={page.route} route={page.routeName} className="link-mobile"/>
                                         </Typography>
 
                                     </MenuItem>
@@ -125,7 +125,7 @@ const NavBar = () => {
                                 textDecoration: 'none',
                             }}
                         >
-                            <CostumeNavLink to="/Home" route="Portafolio" class="link"/>
+                            <CostumeNavLink to="/Home" route="Portafolio" className="link"/>
                         </Typography>
                    
                     <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
@@ -137,7 +137,7 @@ const NavBar = () => {
                                     onClick={handleCloseNavMenu}
                                     sx={{ my: 2, color: 'white', display: 'block' }}
                                 >
-                                    <CostumeNavLink to={page.route} route={page.routeName} class="link"/>
+                                    <CostumeNavLink to={page.route} route={page.routeName} className="link"/>
                                 </Button>
                         ))}
                     </Box>

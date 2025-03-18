@@ -14,7 +14,7 @@ function App() {
       <header className='App-header'>
         <NavBar></NavBar>
       </header>
-      <div className='frontPage'>
+      <div>
         <Routes>
           <Route index element={<FrontPage />} />
           <Route path='/Home' element={<FrontPage />} />
@@ -23,7 +23,7 @@ function App() {
           <Route path='/Contact' element={<Contact />} />
         </Routes>
       </div>
-      <Footer className="footer" />
+      <Footer/>
     </div>
   );
 }

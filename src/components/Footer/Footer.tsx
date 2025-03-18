@@ -5,6 +5,7 @@ import { CONTACT_LINKS } from '../../utils/properties';
 
 const github_link = CONTACT_LINKS['github-link'];
 const linkedin_link = CONTACT_LINKS['linkedin-link'];
+const fullYear = new Date().getFullYear();
 
 const Footer = () => {
     return (
@@ -16,7 +17,7 @@ const Footer = () => {
                 <a href={linkedin_link} target='_blank' rel="noreferrer"> <LinkedInIcon fontSize='large'> </LinkedInIcon> </a>
             </div>
             <div className='copyright-section'>
-                © {new Date().getFullYear} Copyright {' '}
+                <span> © {fullYear} Copyright </span>
                 <a href="#App-header"> JuanTellez.com </a>
             </div>
         </div>

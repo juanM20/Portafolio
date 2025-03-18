@@ -3,7 +3,7 @@ import { SKILLS } from '../../utils/properties';
 
 const SkillsGallery = () => {
     return (
-        <div>
+        <div className='skills-container'>
             {SKILLS.map( (s, index) => {
                 return (
                     <div key={index}>
