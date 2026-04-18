@@ -13,14 +13,19 @@ const Experience = () => {
                     <div>
                         <h2>
                             <a className="company-link" href="https://bbva.mx" target="_blank" rel="noreferrer">
-                                BBVA Web y Móvil
+                                BBVA Web and Mobile
                             </a>
                         </h2>
-                        <p>
-                            Tengo experiencia en la aplicación web y móvil de BBVA, trabajando en funcionalidades clave,
-                            mejoras de interfaz y soporte de calidad. Este proyecto me permitió aplicar React, diseño
-                            responsive y una mentalidad de producto enfocada en el usuario.
-                        </p>
+                        <ul className="company-detail-list">
+                            <li>Created new lit-element components using the latest technologies for the mobile application.</li>
+                            <li>Migrated legacy components to the lit-element framework.</li>
+                            <li>Collaborated with teams in Spain and Colombia to integrate new front-end solutions.</li>
+                            <li>Implemented E2E tests with Cucumber and Jenkins pipelines.</li>
+                            <li>Implemented unit tests with Mocha.js and Sinon.</li>
+                            <li>Worked closely with the backend team.</li>
+                            <li>Implemented AI Agents to increase productivity in the development cycle.</li>
+                            <li>Created new web components using TypeScript.</li>
+                        </ul>
                     </div>
                 </div>
             </div>

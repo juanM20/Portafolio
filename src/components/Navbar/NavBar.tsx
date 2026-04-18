@@ -1,6 +1,5 @@
 import '../../styles/Navbar.css';
-import  React, { useState } from 'react';
-import AppBar from '@mui/material/AppBar';
+import  React, { useState } from 'react';import { NavLink } from 'react-router-dom';import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import IconButton from '@mui/material/IconButton';
@@ -60,7 +59,7 @@ const NavBar: React.FC = () => {
                                 textDecoration: 'none',
                             }}
                         >
-                            <CostumeNavLink to="/Home" route="Portafolio" className="link"/>
+                            <CostumeNavLink to="/Home" route="Portfolio" className="link"/>
                         </Typography>
                     <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
                         <IconButton
@@ -121,20 +120,21 @@ const NavBar: React.FC = () => {
                                 textDecoration: 'none',
                             }}
                         >
-                            <CostumeNavLink to="/Home" route="Portafolio" className="link"/>
+                            <CostumeNavLink to="/Home" route="Portfolio" className="link"/>
                         </Typography>
                    
                     <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
                         {pages.map((page) => (
-                            
-                                <Button
-                                    className='button-desktop'
-                                    key={page.routeName}
-                                    onClick={handleCloseNavMenu}
-                                    sx={{ my: 2, color: 'white', display: 'block' }}
-                                >
-                                    <CostumeNavLink to={page.route} route={page.routeName} className="link"/>
-                                </Button>
+                            <Button
+                                key={page.routeName}
+                                component={NavLink}
+                                to={page.route}
+                                className='button-desktop'
+                                onClick={handleCloseNavMenu}
+                                sx={{ my: 2, color: 'white', display: 'block' }}
+                            >
+                                {page.routeName}
+                            </Button>
                         ))}
                     </Box>
                 </Toolbar>
