@@ -23,12 +23,19 @@
   align-items: center;
 }
 
-.image {
-  grid-area: image;
-  justify-self: stretch;
+.image-section {
   width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.image {
+  width: 100%;
+  max-width: 460px;
+  height: auto;
   border-radius: 10px;
-  transition: box-shadow 0.5s ease; 
+  transition: box-shadow 0.5s ease;
+  display: block;
 }
 
 .image:hover {
@@ -45,19 +52,21 @@
 @media screen and (min-width: 1080px ) {
   .title-section {
     display: grid;
-    grid-template-columns: auto 100px auto;
+    grid-template-columns: 1.5fr 1fr;
     grid-template-rows: auto;
     grid-template-areas: 
-      "title title title"
-      "image content-title content-title";
+      "title title"
+      "image content-title";
     width: 70%;
+    gap: 2rem;
     border: none;
   }
 
   .image {
     grid-area: image;
-    justify-self: stretch;
-    width: 90%;
+    justify-self: center;
+    width: 100%;
+    max-width: 360px;
     transition: box-shadow 0.5s ease; 
   }
 

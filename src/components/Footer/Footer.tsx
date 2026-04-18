@@ -18,7 +18,7 @@ const Footer = () => {
             </div>
             <div className='copyright-section'>
                 <span> © {fullYear} Copyright </span>
-                <a href="#App-header"> JuanTellez.com </a>
+                <a href="https://juantellezportfolio.netlify.app" target="_blank" rel="noreferrer"> JuanTellez.com </a>
             </div>
         </div>
     )

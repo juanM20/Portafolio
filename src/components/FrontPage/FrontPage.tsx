@@ -2,6 +2,7 @@ import '../../styles/FrontPage.css';
 import { Button } from 'antd';
 
 const frontImage = '/images/foto_perfil2.jpeg';
+const linkedInUrl = 'https://www.linkedin.com/in/juanmanuel-tellez/';
 
 const FrontPage = () => {
     return (
@@ -22,7 +23,16 @@ const FrontPage = () => {
                             on Sngular as a Front end developer. I have performed with all kind of teams and I am able to
                             adapt to any situation.</p>
                     </div>
-                    <Button type='primary' className='button' size='large'>Contact Me</Button>
+                    <Button
+                        type='primary'
+                        className='button'
+                        size='large'
+                        href={linkedInUrl}
+                        target='_blank'
+                        rel='noreferrer'
+                    >
+                        Contact Me
+                    </Button>
                 </div>
             </div>
         </div>
