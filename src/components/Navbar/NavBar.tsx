@@ -25,11 +25,7 @@ const pages = [
     {
         routeName: 'Experience',
         route: '/Experience'
-    },
-    {
-        routeName: 'Contact Me',
-        route: '/Contact'
-    },
+    }
 ];
 
 const NavBar: React.FC = () => {
