@@ -20,7 +20,7 @@ const FrontPage = () => {
                     <div>
                         <p>I am an experienced software developer specialized in Front end with react, lit-element and
                             nodejs. I'm becoming a Full stack Engineer with MERN stack and AWS. Currently working
-                            on Sngular as a Front end developer. I have performed with all kind of teams and I am able to
+                            on BBVA Technology as a Front end developer. I have performed with all kind of teams and I am able to
                             adapt to any situation.</p>
                     </div>
                     <Button
