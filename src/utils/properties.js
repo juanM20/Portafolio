@@ -2,7 +2,7 @@
 
 export const CONTACT_LINKS = {
     'github-link': 'https://github.com/juanM20',
-    'linkedin-link': 'https://www.linkedin.com/feed/',
+    'linkedin-link': 'https://www.linkedin.com/in/juanmanuel-tellez/',
 }
 
 export const SKILLS = [
